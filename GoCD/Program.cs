@@ -10,6 +10,12 @@ namespace GoCD
     {
         static void Main(string[] args)
         {
+            for (int x = 0; x < 50; x++)
+            {
+                Console.WriteLine("Valor de x: " + x.ToString());
+            }
+
+            Console.ReadKey();
         }
     }
 }
