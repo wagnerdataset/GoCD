@@ -12,12 +12,7 @@ namespace GoCD
         static void Main(string[] args)
         {
 
-            Console.Title = ConfigurationManager.AppSettings["Title"];
-
-            for (int x = 0; x < 50; x++)
-            {
-                Console.WriteLine("Valor de x: " + x.ToString());
-            }
+            
 
             Console.ReadKey();
         }
