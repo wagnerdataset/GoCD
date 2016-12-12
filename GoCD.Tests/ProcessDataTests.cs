@@ -1,5 +1,4 @@
-﻿using System;
-using GoCD.Layers;
+﻿using GoCD.Layers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GoCD.Tests {
