@@ -12,7 +12,8 @@ namespace GoCD
         static void Main(string[] args)
         {
 
-            
+            string teste = ConfigurationManager.AppSettings["dnauth"];
+            Console.WriteLine(teste);
 
             Console.ReadKey();
         }
