@@ -55,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="App.config.ctmpl">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
     <None Include="App.Debug.config">
       <DependentUpon>App.config</DependentUpon>
     </None>
